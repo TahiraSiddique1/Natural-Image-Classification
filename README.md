@@ -1,8 +1,17 @@
-# CNN_kaggle_dataset
- Convolutional Neural Network (CNN) is implemented using the Keras library for image classification on a dataset containing images of landscapes divided into six classes: buildings, forest, glacier, mountain, sea, and street. The model architecture consists of three convolutional layers with batch normalization, max-pooling, and dropout to prevent overfitting. It is followed by fully connected layers with batch normalization and dropout, ending with a softmax layer for multi-class classification.
+<h1 align="center">Hi 👋, I'm Tahira Siddique</h1>
+<h3 align="center">A passionate machine learning developer</h3>
 
-The data is augmented using the ImageDataGenerator, which performs operations like rotation, horizontal and vertical shifts, and flipping to artificially increase the size of the training dataset. The model is trained using the Adam optimizer and categorical crossentropy loss. Training progress is monitored with ReduceLROnPlateau, which reduces the learning rate if validation loss plateaus, and EarlyStopping to halt training if there is no improvement.
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=tahirasiddique1&label=Profile%20views&color=0e75b6&style=flat" alt="tahirasiddique1" /> </p>
 
-After training for 15 epochs, the model achieves a validation accuracy of approximately 84.83%. The training and validation loss and accuracy are visualized using matplotlib. However, an issue is encountered when attempting to plot the loss, resulting in a KeyError for "loss." It is suggested to either add the loss metric to the model's compile method or use a different key such as "val_loss" for plotting.
+- 🌱 I’m currently learning **machine learning algorithms**
 
-Finally, a few images from the prediction set are randomly selected and displayed along with their predicted classes, demonstrating the model's performance on unseen data.
+- 📫 How to reach me **tahirasiddique01@gmail.com**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/tahirasiddique" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="tahirasiddique" height="30" width="40" /></a>
+<a href="https://kaggle.com/tahirasiddique" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="tahirasiddique" height="30" width="40" /></a>
+</p>
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
