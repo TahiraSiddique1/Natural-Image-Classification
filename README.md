@@ -1,17 +1,43 @@
-<h1 align="center">Hi 👋, I'm Tahira Siddique</h1>
-<h3 align="center">A passionate machine learning developer</h3>
+# 🌍 Natural Scene Image Classification with CNN  
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=tahirasiddique1&label=Profile%20views&color=0e75b6&style=flat" alt="tahirasiddique1" /> </p>
+This project builds and trains a **Convolutional Neural Network (CNN)** to classify natural scene images into **6 categories**:  
 
-- 🌱 I’m currently learning **machine learning algorithms**
+- 🏙️ Buildings  
+- 🌲 Forest  
+- 🧊 Glacier  
+- ⛰️ Mountain  
+- 🌊 Sea  
+- 🛣️ Street  
 
-- 📫 How to reach me **tahirasiddique01@gmail.com**
+Using **Keras + TensorFlow**, the model learns to identify features in images and achieves strong classification performance.  
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/tahirasiddique" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="tahirasiddique" height="30" width="40" /></a>
-<a href="https://kaggle.com/tahirasiddique" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="tahirasiddique" height="30" width="40" /></a>
-</p>
+---
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+## ✨ Features  
+
+✅ **Data Augmentation** with `ImageDataGenerator`  
+✅ **CNN Architecture** with Conv2D, MaxPooling, BatchNormalization & Dropout layers  
+✅ **6-Class Classification** using `softmax`  
+✅ **Overfitting Prevention** with Dropout & Batch Normalization  
+✅ **Training & Validation** on separate datasets  
+✅ **Predictions** with label mapping to human-readable classes  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Python** 🐍  
+- **TensorFlow / Keras**  
+- **NumPy**  
+- **Pandas**  
+- **Matplotlib** (optional for visualization)  
+
+---
+
+## 📂 Dataset  
+
+- **Training set**: `seg_train/seg_train` (14,034 images, 6 classes)  
+- **Validation set**: `seg_test/seg_test` (3,000 images, 6 classes)  
+- **Prediction set**: `seg_pred/seg_pred` (unseen images for testing)  
+
+---
